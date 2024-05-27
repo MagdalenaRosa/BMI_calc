@@ -4,7 +4,9 @@
 <li>In application was used icon that belongs to https://www.flaticon.com</li>
 <h2>Desktop view:</h2>
 
-![Screenshot 2024-05-27 at 22 40 43](https://github.com/MagdalenaRosa/BMI_calculator/assets/128220619/76b7b320-5a4a-4087-82b1-965bd95acc2f)
+![Screenshot 2024-05-27 at 22 40 43](https://github.com/MagdalenaRosa/BMI_calc/assets/128220619/a9a86d5b-ce4d-49ad-b58a-cfe5751936db)
+
+
 <h2>Mobile view:</h2>
 
-![Screenshot 2024-05-27 at 22 40 55](https://github.com/MagdalenaRosa/BMI_calculator/assets/128220619/bcbd90aa-8a56-4886-87c6-78501a67fd03)
+![Screenshot 2024-05-27 at 22 40 55](https://github.com/MagdalenaRosa/BMI_calc/assets/128220619/276568bd-555e-480f-af30-8f77c554fd9b)
