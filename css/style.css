@@ -1,0 +1,80 @@
+:root{
+    font-family: "Roboto", sans-serif;
+
+}
+h1,h2{
+    letter-spacing: 3px;
+   color: rgb(247, 126, 5);
+
+
+}
+h1{
+    font-size: 4vh;
+}
+section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10vh 20% 0 20% ;
+}
+fieldset{
+    border-radius: 20px;
+    border: 0;
+    padding: 3vh;
+    margin: 3vh;
+    background-color: rgba(238, 196, 153, 0.223);
+
+
+}
+ #age {
+    appearance: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#age::-webkit-slider-thumb {
+    appearance: none;
+    width: 2vh;
+    height: 2vh;
+    background: #fa562d;
+    cursor: pointer;
+    border-radius: 20%;
+    position: relative;
+    animation: oscillate 2s infinite;
+    
+}
+
+#age::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+#weight, #height, #age{
+    margin: 10px;
+    text-align: center;
+    width:50%;
+   border-radius: 20px;
+   border: 0;
+   height: 2vh;
+
+   
+}
+@media screen and (max-width: 380px) {
+section{
+    padding-top: 5vh;
+}
+fieldset{
+    padding: 2vh;
+
+    
+}
+}

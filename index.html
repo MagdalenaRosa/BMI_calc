@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI-calc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" >
+<!-- Favicon created by Flaticon -->
+<!-- Flavicon links: https://www.flaticon.com/free-icon/body-mass-index_10008838 -->
+
+</head>
+
+<body>
+    <section>
+    <h1>Calculate your BMI index </h1>
+    <form oninput="chosen_age.value=age.value; result.value = (parseFloat(weight.value) / ((parseFloat(height.value) / 100) ** 2)).toFixed(2)">
+        <fieldset>
+            <label for="age">Insert age</label>
+            <input type="range" name="age" value="0" min="0" max="130" id="age">
+            <output id="chosen_age"  >0</output>
+        </fieldset>
+        <fieldset>
+            <label for="height">Insert height in cm</label>
+            <input type="number" id="height" min="10" max="300">
+        </fieldset>
+        <fieldset>
+            <label for="weight">Insert weight in kg</label>
+            <input type="number" id="weight" min="1" max="500" step="0.1" >
+        </fieldset>
+    </form>
+    <h2 for="result">Your BMI is equal to:</h2>
+    <output id="result"></output>
+</section>
+</body>
+</html>
